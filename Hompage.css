@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background: linear-gradient(to right, rgb(61, 84, 247), rgb(144, 238, 144));
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -18,6 +18,10 @@ nav {
 
 #nav-container {
     display: inline-flex;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    
 }
 
 nav a {
@@ -38,6 +42,7 @@ main {
     color: black;
     border: none;
     cursor: pointer;
+    font-family: "Arial Black", Arial, sans-serif;
 }
 
 h1 {
@@ -45,4 +50,8 @@ h1 {
 }
 h2 {
     font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
