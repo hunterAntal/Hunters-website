@@ -11,6 +11,15 @@ header {
     padding: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-container {
+    display: inline-flex;
+}
+
 nav a {
     margin: 0 10px;
     color: white;
@@ -29,4 +38,11 @@ main {
     color: black;
     border: none;
     cursor: pointer;
+}
+
+h1 {
+    font-family: "Arial Black", Arial, sans-serif;
+}
+h2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
 }
