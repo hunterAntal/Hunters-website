@@ -40,7 +40,7 @@ main {
     padding: 50px 0;
 }
 
-#contact-container {
+#glass-container { /* Styling the new container */
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -52,48 +52,22 @@ main {
     font-size: 20px;
 }
 
-#contact-container h3 {
+#glass-container h3 {
     font-size: 36px;
 }
 
-#contact-container input[type=text],
-#contact-container input[type=email],
-#contact-container textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.1);
+#glass-container a {
     color: white;
+    /* text-decoration: none; removed the underline */
+    transition: all 0.3s ease-in-out; /* added transition for smooth hover effect */
 }
 
-#contact-container input[type=submit] {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 15px;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+#glass-container a:hover {
+    color: rgb(134, 120, 255); /* change color on hover */
+    transform: scale(1.1); /* scale the link size on hover */
+    text-decoration: underline; /* underline the link on hover */
 }
 
-#contact-container input[type=submit]:hover {
-    background-color: #FF5733;
-    color: white;
-}
-
-#social-links {
-    color: white;
-    font-size: 20px;
-    padding-top: 50px;
-}
-
-#social-links a {
-    color: white;
-    text-decoration: none;
-}
 
 footer {
     color: white;
