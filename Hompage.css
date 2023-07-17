@@ -8,8 +8,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 45px 90px; /* Increased right and left padding */
 }
+
 
 nav {
     display: flex;
