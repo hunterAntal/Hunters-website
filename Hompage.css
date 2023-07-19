@@ -40,7 +40,7 @@ main {
 }
 
 a#contact-button {
-    background-image: linear-gradient(to right, #0066cc, #f56300);
+    background-image: linear-gradient(to right, #f56300, #0066cc);
     padding: 10px 20px;
     margin-top: 20px;
     margin-bottom: 50px;
