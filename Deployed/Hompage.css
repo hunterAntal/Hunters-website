@@ -83,7 +83,7 @@ h2 {
     margin: 0 auto; /* center the block */
     max-width: 800px; /* limit the width */
     color: white; /* set text color */
-    text-align: left; /* align text */
+    text-align: center; /* align text */
     line-height: 1.6; /* increase line height for readability */
     font-size: 20px; /* increase font size */
 }

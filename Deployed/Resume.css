@@ -166,3 +166,27 @@ main {
 #name-link:hover {
     color: inherit; /* Keep the color same even on hover */
 }
+
+#download-button {
+    background-image: linear-gradient(to right, #f56300, #0066cc);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Arial Black", Arial, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #888888;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    display: inline-block; /* Required for the dimensions and padding to work on an anchor element */
+}
+
+#download-button:hover {
+    background-image: linear-gradient(to right, #0066cc, #f56300);
+    transform: scale(1.1);
+}
