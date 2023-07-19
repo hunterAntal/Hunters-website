@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, rgb(61, 84, 247), rgb(144, 238, 144));
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-container {
+    display: inline-flex;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 165, 120);
+    transform: scale(1.1);
+}
+
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#glass-container { /* Styling the new container */
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 800px;
+    color: white;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+#glass-container h3 {
+    font-size: 36px;
+}
+
+#glass-container a {
+    color: white;
+    /* text-decoration: none; removed the underline */
+    transition: all 0.3s ease-in-out; /* added transition for smooth hover effect */
+}
+
+#glass-container a:hover {
+    color: rgb(134, 120, 255); /* change color on hover */
+    transform: scale(1.1); /* scale the link size on hover */
+    text-decoration: underline; /* underline the link on hover */
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer img {
+    width: 100px;
+}
