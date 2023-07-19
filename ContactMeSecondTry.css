@@ -77,9 +77,7 @@ h2 {
 }
 
 #product-description {
-    background-color: rgba(255, 255, 255, 0.2); /* semi-transparent white */
-    backdrop-filter: blur(10px); /* apply blur to the area behind the element */
-    border-radius: 10px; /* optional, to round the corners of the element */
+    
     padding: 25px; /* optional, to give some space between the text and the border */
     margin: 0 auto; /* center the block */
     max-width: 800px; /* limit the width */
