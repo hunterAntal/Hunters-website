@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(61, 84, 247), rgb(144, 238, 144));
+    background: linear-gradient(to right, #0066cc, #f56300);
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 165, 120);
+    color: #9999cc;
     transform: scale(1.1); /* adjust as needed */
 }
 
@@ -40,27 +40,28 @@ main {
 }
 
 a#contact-button {
+    background-image: linear-gradient(to right, #0066cc, #f56300);
     padding: 10px 20px;
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 20px;
-    background-color: white;
-    color: black;
+    color: white;
     border: none;
     cursor: pointer;
     font-family: "Arial Black", Arial, sans-serif;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #888888;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    position: relative; /* add this */
-    z-index: 1; /* add this */
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
 }
+
 a#contact-button:hover {
-    background-color: #FF5733;
-    color: white;
-    transform: scale(1.05);
+    background-image: linear-gradient(to right, #0066cc, #f56300);
+    transform: scale(1.1);
 }
+
 
 
 h1 {

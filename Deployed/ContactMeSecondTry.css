@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(61, 84, 247), rgb(144, 238, 144));
+    background: linear-gradient(to right, rgb(61, 84, 247), rgb(238, 144, 144));
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -155,4 +155,12 @@ main {
     #product-description p, ul {
         font-size: 16px;
     }
+}
+footer img {
+    width: 100px;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 50px 0;
 }

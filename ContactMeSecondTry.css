@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(61, 84, 247), rgb(238, 144, 144));
+    background: linear-gradient(to right, #0066cc, #f56300);
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 165, 120);
+    color: #9999cc;
     transform: scale(1.1); /* adjust as needed */
 }
 
@@ -163,4 +163,12 @@ footer {
     color: white;
     text-align: center;
     padding: 50px 0;
+}
+
+.social-link {
+    color: #ffb366;
+}
+.social-link:hover {
+    color: white;
+    transform: scale(1.1);
 }
