@@ -172,3 +172,13 @@ footer {
     color: white;
     transform: scale(1.1);
 }
+
+
+#name-link {
+    color: inherit; /* This will ensure the link color is same as the parent */
+    text-decoration: none; /* This removes the underline */
+}
+
+#name-link:hover {
+    color: inherit; /* Keep the color same even on hover */
+}
